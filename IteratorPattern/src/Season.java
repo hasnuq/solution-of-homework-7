@@ -12,7 +12,7 @@ class Season implements Iterable<Episode> {
     public List<Episode> getEpisodes() {
         return episodes;
     }
-    
+
     public Iterator<Episode> iterator() {
         return new SeasonIterator(this);
     }
